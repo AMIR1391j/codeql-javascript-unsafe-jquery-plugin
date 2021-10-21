@@ -1,5 +1,4 @@
-name: Check Queries
-
+name: Check Querie
 on: [push]
 
 jobs:
@@ -7,7 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v1 Bytes
+import javascript
+
+from CallExpr dollarCall, Expr dollarArg
+where
+    dollarArg = dollarCall.getArgument(0) and
+    dollarCall.getCalleeName() = "$"
+select dollarArg
+
 
       # TODO: delete once published action used below
     - name: Login to docker
